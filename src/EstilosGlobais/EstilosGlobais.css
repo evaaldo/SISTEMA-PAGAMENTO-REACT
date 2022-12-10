@@ -28,8 +28,12 @@ html {
     --branco: #fff;
     --cinza: #afafaf;
     --verde-fundo: #CCD6A6;
+    --verde-precos: #539b50;
+    --verde-preco-container: #376836;
     --verde: #439A97;
     --verde-container: #DAE2B6;
-    --verde-popular: #d4e09f;
-    --verde-popular-botao: #cddb8d;
+    --verde-preco-popular: #315031;
+    --verde-popular-botao: #328d4d;
+    --verde-botao: #449e5e;
+    --preto-fundo: #202020;
 }

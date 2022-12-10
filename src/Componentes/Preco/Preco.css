@@ -1,5 +1,10 @@
 .preco-desktop {
     padding-top: 5em;
+    background-color: var(--verde-precos);
+    margin: 0 4em 4em 4em;
+    padding-bottom: 5em;
+    border-radius: 15px;
+    color: var(--branco);
 }
 
 .preco-desktop__textos {
@@ -23,12 +28,13 @@
 }
 
 .preco-desktop-card {
-    background-color: var(--verde-container);
-    color: var(--preto);
+    background-color: var(--verde-preco-container);
+    color: var(--branco);
     padding: 2em;
     width: 250px;
     height: 300px;
     border-radius: 15px;
+    box-shadow: 1px 4px 10px var(--preto);
 }
 
 .preco-desktop-card__preco {
@@ -55,13 +61,14 @@
     text-align: center;
     width: 100%;
     margin-top: 3em;
-    background-color: var(--verde-fundo);
+    background-color: var(--verde-botao);
     box-shadow: 1px 1px 5px 1px var(--preto);
     font-weight: 700;
     border-radius: 10px;
     border: none;
     cursor: pointer;
     transition: .2s;
+    color: var(--branco);
 }
 
 .preco-desktop-card__botao:hover {
@@ -69,12 +76,13 @@
 }
 
 .preco-desktop-card-popular {
-    background-color: var(--verde-popular);
-    color: var(--preto);
+    background-color: var(--verde-preco-popular);
+    color: var(--branco);
     border-radius: 15px;
     padding: 2em;
     width: 300px;
     height: 350px;
+    box-shadow: 1px 4px 10px var(--preto);
 }
 
 .preco-desktop-card__botao-popular {
@@ -89,6 +97,7 @@
     border: none;
     cursor: pointer;
     transition: .2s;
+    color: var(--branco);
 }
 
 .preco-desktop-card__botao-popular:hover {

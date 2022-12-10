@@ -1,0 +1,28 @@
+.localizacao-desktop {
+    background-color: var(--preto-fundo);
+    color: var(--branco);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 4em;
+}
+
+.localizacao-desktop__subtitulo {
+    opacity: .5;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+
+.mapa {
+    width: 700px;
+    height: 400px;
+    border: 2px solid var(--preto);
+    background-color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--preto);
+    margin-bottom: 5em;
+}
