@@ -72,7 +72,7 @@
 }
 
 .preco-desktop-card__botao:hover {
-    background-color: var(--verde-fundo);
+    background-color: var(--azul-botao);
 }
 
 .preco-desktop-card-popular {
@@ -101,7 +101,7 @@
 }
 
 .preco-desktop-card__botao-popular:hover {
-    background-color: var(--verde-fundo);
+    background-color: var(--azul-botao);
 }
 
 .preco-desktop__comparacao-titulo {
