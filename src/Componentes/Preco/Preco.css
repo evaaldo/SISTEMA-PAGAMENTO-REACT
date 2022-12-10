@@ -94,3 +94,31 @@
 .preco-desktop-card__botao-popular:hover {
     background-color: var(--verde);
 }
+
+.preco-desktop__comparacao-titulo {
+    padding-left: 6em;
+}
+
+.preco-desktop-comparacao__planos {
+    padding-top: 3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16em;
+}
+
+.preco-desktop__comparacao-detalhes {
+    padding: 0 10em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.preco-desktop__comparacao-detalhe {
+    width: 300px;
+}
+
+.detalhe {
+    margin-bottom: 1em;
+    font-size: .8em;
+}

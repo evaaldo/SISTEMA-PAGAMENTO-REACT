@@ -1,4 +1,5 @@
 import './Preco.css'
+import { FaCheckCircle } from 'react-icons/fa'
 
 const Preco = () => {
 
@@ -36,6 +37,49 @@ const Preco = () => {
                         </div>
                         <h4 className='preco-desktop-card__descricao'>Corte de barba garantido durante todo o mês.</h4>
                         <button className='preco-desktop-card__botao'>Adquirir pacote barba</button>
+                    </div>
+                </div>
+                <h1 className='preco-desktop__comparacao-titulo'>Compare os planos</h1>
+                <div className='preco-desktop-comparacao__planos'>
+                    <h2 className='preco-desktop__comparacao-plano'>Corte e barba</h2>
+                    <h2 className='preco-desktop__comparacao-plano'>Corte</h2>
+                    <h2 className='preco-desktop__comparacao-plano'>Barba</h2>
+                </div>
+                <div className='linha'></div>
+                <div className='preco-desktop__comparacao-detalhes'>
+                    <div className='preco-desktop__comparacao-detalhe'>
+                        <p className='detalhe'><FaCheckCircle/> Corte o cabelo quantas vezes quiser</p>
+                        <p className='detalhe'><FaCheckCircle/> Faça a barba quantas vezes quiser</p>
+                        <p className='detalhe'><FaCheckCircle/> Presentes exclusivos</p>
+                        <p className='detalhe'><FaCheckCircle/> Convidado VIP do mês de aniversário</p>
+                        <p className='detalhe'><FaCheckCircle/> 10% de desconto em produtos e serviços</p>
+                        <p className='detalhe'><FaCheckCircle/> 10% de desconto em consumo</p>
+                        <p className='detalhe'><FaCheckCircle/> Sem taxa de adesão</p>
+                        <p className='detalhe'><FaCheckCircle/> Sem contrato de fidalidade</p>
+                        <p className='detalhe'><FaCheckCircle/> Pode usar assim que contratar o plano</p>
+                        <p className='detalhe'><FaCheckCircle/> Sem taxa de anuidade</p>
+                    </div>
+                    <div className='preco-desktop__comparacao-detalhe'>
+                        <p className='detalhe'><FaCheckCircle/> Corte o cabelo quantas vezes quiser</p>
+                        <p className='detalhe'><FaCheckCircle/> Presentes exclusivos</p>
+                        <p className='detalhe'><FaCheckCircle/> Convidado VIP do mês de aniversário</p>
+                        <p className='detalhe'><FaCheckCircle/> 10% de desconto em produtos e serviços</p>
+                        <p className='detalhe'><FaCheckCircle/> 10% de desconto em consumo</p>
+                        <p className='detalhe'><FaCheckCircle/> Sem taxa de adesão</p>
+                        <p className='detalhe'><FaCheckCircle/> Sem contrato de fidalidade</p>
+                        <p className='detalhe'><FaCheckCircle/> Pode usar assim que contratar o plano</p>
+                        <p className='detalhe'><FaCheckCircle/> Sem taxa de anuidade</p>
+                    </div>
+                    <div className='preco-desktop__comparacao-detalhe'>
+                        <p className='detalhe'><FaCheckCircle/> Faça a barba quantas vezes quiser</p>
+                        <p className='detalhe'><FaCheckCircle/> Presentes exclusivos</p>
+                        <p className='detalhe'><FaCheckCircle/> Convidado VIP do mês de aniversário</p>
+                        <p className='detalhe'><FaCheckCircle/> 10% de desconto em produtos e serviços</p>
+                        <p className='detalhe'><FaCheckCircle/> 10% de desconto em consumo</p>
+                        <p className='detalhe'><FaCheckCircle/> Sem taxa de adesão</p>
+                        <p className='detalhe'><FaCheckCircle/> Sem contrato de fidalidade</p>
+                        <p className='detalhe'><FaCheckCircle/> Pode usar assim que contratar o plano</p>
+                        <p className='detalhe'><FaCheckCircle/> Sem taxa de anuidade</p>
                     </div>
                 </div>
             </div>

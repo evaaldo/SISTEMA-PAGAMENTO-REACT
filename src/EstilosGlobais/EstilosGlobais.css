@@ -15,6 +15,14 @@ html {
     scroll-behavior: smooth;
 }
 
+.linha {
+    width: 80%;
+    background-color: var(--preto);
+    height: 1px;
+    opacity: .3;
+    margin: 2em auto 2em auto;
+}
+
 :root {
     --preto: #000;
     --branco: #fff;
