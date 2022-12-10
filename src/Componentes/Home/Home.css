@@ -4,6 +4,7 @@
     justify-content: center;
     align-items: center;
     gap: 5em;
+    color: var(--branco);
 }
 
 .home-desktop__textos {
@@ -45,17 +46,17 @@
 }
 
 .home-desktop__botoes-ancora:hover {
-    opacity: .8;
+    background-color: var(--preto-fundo);
+    color: var(--branco);
 }
 
 .nobg {
     color: var(--branco);
-    background-color: var(--verde);
+    background-color: var(--azul-botao);
 }
 
 .nobg:hover {
-    background-color: var(--verde);
-    opacity: .8;
+    background-color: var(--azul);
 }
 
 .home-desktop__detalhes {

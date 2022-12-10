@@ -27,7 +27,7 @@ html {
     --preto: #000;
     --branco: #fff;
     --cinza: #afafaf;
-    --verde-fundo: #CCD6A6;
+    --verde-fundo: #5F8D4E;
     --verde-precos: #539b50;
     --verde-preco-container: #376836;
     --verde: #439A97;
@@ -36,4 +36,6 @@ html {
     --verde-popular-botao: #328d4d;
     --verde-botao: #449e5e;
     --preto-fundo: #202020;
+    --azul-botao: #4e47da;
+    --azul: rgb(30, 56, 172);
 }

@@ -3,6 +3,7 @@
     justify-content: space-evenly;
     align-items: center;
     padding: 3em 0;
+    color: var(--branco);
 }
 
 .cabecalho-desktop__categorias {
@@ -15,7 +16,7 @@
 .cabecalho-desktop__categoria {
     text-decoration: none;
     font-weight: 600;
-    color: var(--preto);
+    color: var(--branco);
     transition: .2s;
 }
 
@@ -27,7 +28,7 @@
     width: 150px;
     height: 40px;
     cursor: pointer;
-    color: var(--preto);
+    color: var(--branco);
     transition: .2s;
 }
 

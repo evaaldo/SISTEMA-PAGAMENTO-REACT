@@ -1,6 +1,6 @@
 .preco-desktop {
     padding-top: 5em;
-    background-color: var(--verde-precos);
+    background-color: var(--preto-fundo);
     margin: 0 4em 4em 4em;
     padding-bottom: 5em;
     border-radius: 15px;
@@ -28,7 +28,7 @@
 }
 
 .preco-desktop-card {
-    background-color: var(--verde-preco-container);
+    background-color: var(--preto-fundo);
     color: var(--branco);
     padding: 2em;
     width: 250px;
@@ -61,7 +61,7 @@
     text-align: center;
     width: 100%;
     margin-top: 3em;
-    background-color: var(--verde-botao);
+    background-color: var(--preto-fundo);
     box-shadow: 1px 1px 5px 1px var(--preto);
     font-weight: 700;
     border-radius: 10px;
@@ -72,11 +72,11 @@
 }
 
 .preco-desktop-card__botao:hover {
-    background-color: var(--verde);
+    background-color: var(--verde-fundo);
 }
 
 .preco-desktop-card-popular {
-    background-color: var(--verde-preco-popular);
+    background-color: var(--preto-fundo);
     color: var(--branco);
     border-radius: 15px;
     padding: 2em;
@@ -90,7 +90,7 @@
     text-align: center;
     width: 100%;
     margin-top: 6em;
-    background-color: var(--verde-popular-botao);
+    background-color: var(--preto-fundo);
     box-shadow: 1px 1px 5px 1px var(--preto);
     font-weight: 700;
     border-radius: 10px;
@@ -101,7 +101,7 @@
 }
 
 .preco-desktop-card__botao-popular:hover {
-    background-color: var(--verde);
+    background-color: var(--verde-fundo);
 }
 
 .preco-desktop__comparacao-titulo {
