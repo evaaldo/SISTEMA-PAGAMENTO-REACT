@@ -1,0 +1,36 @@
+.cabecalho-desktop {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.cabecalho-desktop__categorias {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.cabecalho-desktop__categoria {
+    text-decoration: none;
+    font-weight: 600;
+    color: var(--preto);
+    transition: .2s;
+}
+
+.cabecalho-desktop__categoria:hover {
+    opacity: .5;
+}
+
+.icon {
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+    color: var(--preto);
+    transition: .2s;
+}
+
+.icon:hover {
+    opacity: .5;
+}
