@@ -1,0 +1,90 @@
+.contato {
+    display: flex;
+    justify-content: space-around;
+    margin: 4em 8em;
+}
+
+.contato-dados {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    background-color: var(--preto-fundo);
+    color: var(--branco);
+    padding: 2em;
+    border-radius: 10px;
+}
+
+.contato-dados__subtitulo {
+    color: var(--azul-botao);
+}
+
+.contato-dados__titulo {
+    font-size: 2.5em;
+}
+
+.contato-dados__item {
+    display: flex;
+    align-items: center;
+}
+
+.contato-dados__itens {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: .5em 0;
+}
+
+.contato-dados__redes-sociais {
+    display: flex;
+    gap: .5em;
+    padding: 1em 0 0 0;
+}
+
+.contato-talk {
+    width: 400px;
+    padding: 2em;
+    background-color: var(--preto-fundo);
+    color: var(--branco);
+    border-radius: 10px;
+}
+
+.contato-talk__subtitulo {
+    color: var(--azul-botao);
+}
+
+.contato-talk__titulo {
+    font-size: 2.5em;
+    margin-bottom: .8em;
+}
+
+.contato-talk__formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+input {
+    width: 100%;
+    padding: .7em;
+    border-radius: 5px;
+}
+
+.contato-talk__mensagem {
+    height: 50px;
+}
+
+.contato-talk__botao {
+    font-weight: 700;
+    cursor: pointer;
+    padding: 1em;
+    background-color: var(--azul-botao);
+    color: var(--branco);
+    transition: .2s;
+}
+
+.contato-talk__botao:hover {
+    background-color: var(--branco);
+    color: var(--preto);
+}

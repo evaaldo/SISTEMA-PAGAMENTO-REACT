@@ -1,4 +1,5 @@
 import Cabecalho from '../../Componentes/Cabecalho/Cabecalho'
+import Contato from '../../Componentes/Contato/Contato'
 import Home from '../../Componentes/Home/Home'
 import Localizacao from '../../Componentes/Localizacao/Localizacao'
 import Preco from '../../Componentes/Preco/Preco'
@@ -12,6 +13,7 @@ const PaginaInicial = () => {
             <Home/>
             <Preco/>
             <Localizacao/>
+            <Contato/>
         </div>
     )
 
