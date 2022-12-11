@@ -3,6 +3,7 @@ import Contato from '../../Componentes/Contato/Contato'
 import Home from '../../Componentes/Home/Home'
 import Localizacao from '../../Componentes/Localizacao/Localizacao'
 import Preco from '../../Componentes/Preco/Preco'
+import Rodape from '../../Componentes/Rodape/Rodape'
 import './PaginaInicial.css'
 
 const PaginaInicial = () => {
@@ -14,6 +15,7 @@ const PaginaInicial = () => {
             <Preco/>
             <Localizacao/>
             <Contato/>
+            <Rodape/>
         </div>
     )
 
