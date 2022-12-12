@@ -1,7 +1,14 @@
-.contato {
+.contato-dados-talk {
     display: flex;
     justify-content: space-around;
     margin: 4em 8em;
+}
+
+.contato__titulo {
+    font-size: 4em;
+    text-align: center;
+    padding-top: 1em;
+    color: var(--branco);
 }
 
 .contato-dados {
