@@ -11,8 +11,37 @@ import { FaFacebookSquare } from 'react-icons/fa'
 
 const Contato = () => {
 
+    const [nome, setNome] = useState('')
+    const [numero, setNumero] = useState('')
+    const [email, setEmail] = useState('')
+    const [mensagem, setMensagem] = useState('')
+
+    const sendEmail = (e) => {
+
+        e.preventDefault()
+
+        const templatePrams = {
+            from_name: nome,
+            number: numero,
+            message: mensagem,
+            email: email
+        }
+
+        if(setNome != '' && setEmail != '' && setNumero != '' && setMensagem != '') {
+            emailjs.send('service_5x2ohri', 'template_rjp6bo2', templatePrams, 'gcQJkwh4AOZnT9zPf')
+            .then((response) => {
+                console.log('EMAIL ENVIADO', response.status, response.text)
+                setEmail('')
+                setMensagem('')
+                setNome('')
+                setNumero('')
+            }, (err) => console.log('erro: ', err))
+        }
+
+    }
+
     return(
-        <div className='contato'>
+        <div className='contato' id='contato'>
             <div className='contato-dados'>
                 <h2 className='contato-dados__subtitulo'>Barbearia</h2>
                 <h1 className='contato-dados__titulo'>Contato</h1>
@@ -39,12 +68,12 @@ const Contato = () => {
             <div className='contato-talk'>
                 <h2 className='contato-talk__subtitulo'>Sem compromisso</h2>
                 <h1 className='contato-talk__titulo'>Fale conosco</h1>
-                <form className='contato-talk__formulario'>  
-                    <input className='contato-talk__nome' type='text' placeholder='Nome completo'></input>
-                    <input className='contato-talk__numero' type='text' placeholder='Número'></input>
-                    <input className='contato-talk__email' type='text' placeholder='E-mail'></input>
-                    <input className='contato-talk__mensagem' type='text' placeholder='Mensagem'></input>
-                    <input value='Enviar' type='submit' className='contato-talk__botao'></input>
+                <form className='contato-talk__formulario' onSubmit={sendEmail}>  
+                    <input required className='contato-talk__nome' type='text' placeholder='Nome completo' onChange={(e) => setNome(e.target.value)} value={nome}></input>
+                    <input required className='contato-talk__numero' type='text' placeholder='Número' onChange={(e) => setNumero(e.target.value)} value={numero}></input>
+                    <input required className='contato-talk__email' type='text' placeholder='E-mail' onChange={(e) => setEmail(e.target.value)} value={email}></input>
+                    <input required className='contato-talk__mensagem' type='text' placeholder='Mensagem' onChange={(e) => setMensagem(e.target.value)} value={mensagem}></input>
+                    <input required value='Enviar' type='submit' className='contato-talk__botao'></input>
                 </form>
             </div>
         </div>
