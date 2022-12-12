@@ -131,3 +131,16 @@
     margin-bottom: 1em;
     font-size: .8em;
 }
+
+.pagamento {
+    margin-top: 1.5em;
+}
+
+.pagamento__texto {
+    color: var(--verde-botao);
+    margin-top: .5em;
+    text-align: center;
+    border: 2px solid var(--preto);
+    border-radius: 15px;
+    padding: .2em 0;
+}

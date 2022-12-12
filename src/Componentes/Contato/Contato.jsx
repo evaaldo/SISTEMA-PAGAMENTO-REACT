@@ -27,7 +27,7 @@ const Contato = () => {
             email: email
         }
 
-        if(setNome != '' && setEmail != '' && setNumero != '' && setMensagem != '') {
+        if(setNome !== '' && setEmail !== '' && setNumero !== '' && setMensagem !== '') {
             emailjs.send('service_5x2ohri', 'template_rjp6bo2', templatePrams, 'gcQJkwh4AOZnT9zPf')
             .then((response) => {
                 console.log('EMAIL ENVIADO', response.status, response.text)
@@ -67,7 +67,7 @@ const Contato = () => {
                         <a href='#'><FaInstagramSquare color='white' size={32}/></a>
                     </div>
                 </div>
-                <div className='contato-talk'>
+                <div className='contato-talk' id='fale-conosco'>
                     <h2 className='contato-talk__subtitulo'>Sem compromisso</h2>
                     <h1 className='contato-talk__titulo'>Fale conosco</h1>
                     <form className='contato-talk__formulario' onSubmit={sendEmail}>  
