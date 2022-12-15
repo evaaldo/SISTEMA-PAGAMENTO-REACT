@@ -12,7 +12,6 @@
 .localizacao-desktop__subtitulo {
     opacity: .5;
     font-size: 3em;
-    margin-bottom: 1em;
 }
 
 .mapa {
@@ -25,4 +24,16 @@
     justify-content: center;
     color: var(--preto);
     margin-bottom: 5em;
+}
+
+.localizacao-desktop__descricao {
+    color: var(--branco);
+    font-weight: 500;
+    text-decoration: none;
+    margin-bottom: 1em;
+    transition: .2s;
+}
+
+.localizacao-desktop__descricao:hover {
+    opacity: .6;
 }
