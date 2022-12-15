@@ -52,7 +52,7 @@
 }
 
 .preco-desktop-card__descricao {
-    margin-top: 2em;
+    margin: 2em 0;
     opacity: .7;
 }
 
@@ -143,4 +143,31 @@
     border: 2px solid var(--preto);
     border-radius: 15px;
     padding: .2em 0;
+}
+
+.preco-desktop-card__botaao {
+    text-decoration: none;
+    text-align: center;
+    color: var(--branco);
+    font-weight: 700;
+    padding: .5em 1em;
+    background-color: var(--azul-botao);
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.preco-desktop-card__botaao:hover {
+    opacity: .6;
+}
+
+.preco-desktop-card__popular {
+    background-color: var(--verde-botao);
+    color: var(--branco);
+    font-weight: 700;
+    width: 50%;
+    text-align: center;
+    padding: .4em 0;
+    border-radius: 30px;
+    margin-top: 1em;
+    border: 2px solid var(--branco);
 }

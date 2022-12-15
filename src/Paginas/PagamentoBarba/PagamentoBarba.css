@@ -1,0 +1,50 @@
+.plano {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.plano-container {
+    color: var(--branco);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2em;
+    background-color: var(--preto-fundo);
+    border-radius: 20px;
+
+}
+
+.plano__titulo {
+    text-align: center;
+}
+
+.pagamento__texto {
+    padding: .5em 1em;
+}
+
+.plano__voltar {
+    background-color: var(--azul-botao);
+    font-weight: 700;
+    padding: .5em 1em;
+    color: var(--branco);
+    text-decoration: none;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    border-radius: 10px;
+    transition: .2s;
+}
+
+.plano__nome {
+    color: var(--branco);
+    margin-bottom: 1em;
+    font-size: 3em;
+}
+
+.plano__voltar:hover {
+    opacity: .7;
+}
