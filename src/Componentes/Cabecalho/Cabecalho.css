@@ -35,3 +35,27 @@
 .icon:hover {
     opacity: .5;
 }
+
+.cabecalho-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+
+    .cabecalho-desktop {
+        display: none;
+    }
+
+    .cabecalho-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho-mobile__topo {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+        color: var(--branco);
+    }
+
+}

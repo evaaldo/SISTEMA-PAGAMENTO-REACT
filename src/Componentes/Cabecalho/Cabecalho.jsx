@@ -1,10 +1,17 @@
 import './Cabecalho.css'
-import { FaInstagram } from 'react-icons/fa'
+import { FaBars, FaInstagram } from 'react-icons/fa'
 
 const Cabecalho = () => {
 
     return(
         <div className="cabecalho">
+            <div className='cabecalho-mobile'>
+                <div className='cabecalho-mobile__topo'>
+                    <FaBars size={40}/>
+                    <h1 className='cabecalho-mobile__titulo'>Green</h1>
+                    <FaInstagram size={40}/>
+                </div>
+            </div>
             <div className="cabecalho-desktop">
                 <h1 className="cabecalho-desktop__titulo">Green</h1>
                 <div className="cabecalho-desktop__categorias">
