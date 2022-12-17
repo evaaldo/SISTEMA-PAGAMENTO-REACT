@@ -171,3 +171,45 @@
     margin-top: 1em;
     border: 2px solid var(--branco);
 }
+
+@media screen and (max-width: 1024px) {
+
+    .preco-desktop {
+        padding: 3em 2em;
+        margin: 0;
+        border-radius: 0;
+    }
+
+    .preco-desktop-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .preco-desktop-card-popular {
+        background-color: var(--preto-fundo);
+        color: var(--branco);
+        padding: 2em;
+        width: 250px;
+        height: 300px;
+        border-radius: 15px;
+        box-shadow: 1px 4px 10px var(--preto);
+    }
+
+    .preco-desktop-card__popular {
+        width: 70%;
+        padding: .3em .5em;
+    }
+
+    .preco-desktop__comparacao-titulo {
+        display: none;
+    }
+
+    .preco-desktop-comparacao__planos {
+        display: none;
+    }
+
+    .preco-desktop__comparacao-detalhes {
+        display: none;
+    }
+
+}
