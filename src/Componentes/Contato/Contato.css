@@ -95,3 +95,37 @@ input {
     background-color: var(--branco);
     color: var(--preto);
 }
+
+@media screen and (max-width: 1024px) {
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato__titulo {
+        padding: .5em 0;
+        background-color: var(--preto-fundo);
+    }
+
+    .contato-dados-talk {
+        display: flex;
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .contato-dados, .contato-talk {
+        width: 300px;
+    }
+
+    .contato-dados__item {
+        gap: 1em;
+    }
+
+    .contato-talk__botao {
+        border: none;
+    }
+
+}
