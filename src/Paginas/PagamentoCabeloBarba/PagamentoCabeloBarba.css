@@ -48,3 +48,25 @@
 .plano__voltar:hover {
     opacity: .7;
 }
+
+@media screen and (max-width: 1024px) {
+
+    .plano {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .plano__nome {
+        text-align: center;
+    }
+
+    .plano-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 300px;
+    }
+
+}
