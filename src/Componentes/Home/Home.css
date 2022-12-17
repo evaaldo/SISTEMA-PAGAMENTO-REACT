@@ -121,7 +121,14 @@
     }
 
     .home-mobile__detalhes {
+        display: block;
         text-align: center;
+    }
+
+    .home-desktop__textos {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
     }
 
 }
