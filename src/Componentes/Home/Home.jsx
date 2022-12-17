@@ -19,6 +19,7 @@ const Home = () => {
                 </div>
                 <div className='home-desktop__imagem'>
                     <img src={Logo} className='home-desktop__imagem-img' alt='logo da green'></img>
+                    <h5 className='home-mobile__detalhes'>Temos a confiança dos nossos clientes e sempre recebemos o feedback de um serviço bem feito. Seja mais um a ficar feliz com a aparência também.</h5>
                 </div>
             </div>
         </div>

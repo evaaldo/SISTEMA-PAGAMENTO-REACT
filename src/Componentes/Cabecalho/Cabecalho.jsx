@@ -9,7 +9,7 @@ const Cabecalho = () => {
                 <div className='cabecalho-mobile__topo'>
                     <FaBars size={40}/>
                     <h1 className='cabecalho-mobile__titulo'>Green</h1>
-                    <FaInstagram size={40}/>
+                    <a className='instaicon' href='https://www.instagram.com/barbearia_green2022/?next=%2F'><FaInstagram size={40}/></a>
                 </div>
             </div>
             <div className="cabecalho-desktop">

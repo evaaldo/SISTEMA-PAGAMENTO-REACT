@@ -40,6 +40,10 @@
     display: none;
 }
 
+.instaicon {
+    color: var(--branco);
+}
+
 @media screen and (max-width: 1024px) {
 
     .cabecalho-desktop {
