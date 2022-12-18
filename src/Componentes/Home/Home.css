@@ -75,7 +75,7 @@
     .home-desktop {
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: flex-start;
         padding: 2em;
         margin: 0;
         align-items: flex-start;

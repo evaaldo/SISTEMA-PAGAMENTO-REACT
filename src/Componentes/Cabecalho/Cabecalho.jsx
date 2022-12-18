@@ -1,5 +1,5 @@
 import './Cabecalho.css'
-import { FaBars, FaInstagram } from 'react-icons/fa'
+import { FaBars, FaInstagram, FaWindowClose } from 'react-icons/fa'
 
 const Cabecalho = () => {
 
@@ -7,9 +7,19 @@ const Cabecalho = () => {
         <div className="cabecalho">
             <div className='cabecalho-mobile'>
                 <div className='cabecalho-mobile__topo'>
-                    <FaBars size={40}/>
-                    <h1 className='cabecalho-mobile__titulo'>Green</h1>
-                    <a className='instaicon' href='https://www.instagram.com/barbearia_green2022/?next=%2F'><FaInstagram size={40}/></a>
+                    <div className='cabecalho-mobile__topo-clicaveis'>
+                        <FaBars size={40}/>
+                        <h1 className='cabecalho-mobile__titulo'>Green</h1>
+                        <a className='instaicon' href='https://www.instagram.com/barbearia_green2022/?next=%2F'><FaInstagram size={40}/></a>
+                    </div>
+                    <div className='cabecalho-mobile__sidebar'>
+                        <FaWindowClose size={30} />
+                        <h1 className='cabecalho-mobile__sidebar-titulo'>Categorias</h1>
+                        <a href='#home' className='cabecalho-mobile__sidebar-categoria'>Home</a>
+                        <a href='#preco' className='cabecalho-mobile__sidebar-categoria'>Preço</a>
+                        <a href='#localizacao' className='cabecalho-mobile__sidebar-categoria'>Localização</a>
+                        <a href='#contato' className='cabecalho-mobile__sidebar-categoria'>Contato</a>
+                    </div>                    
                 </div>
             </div>
             <div className="cabecalho-desktop">

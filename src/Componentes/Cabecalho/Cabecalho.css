@@ -57,9 +57,35 @@
 
     .cabecalho-mobile__topo {
         display: flex;
+        flex-direction: column;
+    }
+
+    .cabecalho-mobile__topo-clicaveis {
+        display: flex;
         justify-content: space-between;
         padding: 1em;
         color: var(--branco);
+    }
+
+    .cabecalho-mobile__sidebar {
+        background-color: var(--branco);
+        position: absolute;
+        width: 200px;
+        left: 0px;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        padding: 1em;
+    }
+
+    .cabecalho-mobile__sidebar-categoria {
+        text-decoration: none;
+        color: var(--preto);
+        font-size: 1.3em;
+        font-weight: 600;
     }
 
 }
