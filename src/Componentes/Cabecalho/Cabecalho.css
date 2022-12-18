@@ -80,6 +80,7 @@
         gap: 1em;
         padding: 1em;
         border-radius: 5px;
+        transition: .4s all;
     }
 
     .cabecalho-mobile__sidebar-hide {
@@ -94,6 +95,7 @@
         align-items: center;
         gap: 1em;
         padding: 1em;
+        transition: .4s all;
     }
 
     .cabecalho-mobile__sidebar-categoria {
