@@ -1,19 +1,28 @@
 import './Cabecalho.css'
 import { FaBars, FaInstagram, FaWindowClose } from 'react-icons/fa'
+import { useState } from 'react'
 
 const Cabecalho = () => {
+
+    const [style, setStyle] = useState('cabecalho-mobile__sidebar-hide')
+
+    function styleAlter() {
+
+        style === 'cabecalho-mobile__sidebar-hide' ? setStyle('cabecalho-mobile__sidebar-show') : setStyle('cabecalho-mobile__sidebar-hide')
+
+    }
 
     return(
         <div className="cabecalho">
             <div className='cabecalho-mobile'>
                 <div className='cabecalho-mobile__topo'>
                     <div className='cabecalho-mobile__topo-clicaveis'>
-                        <FaBars size={40}/>
+                        <FaBars size={40} onClick={styleAlter}/>
                         <h1 className='cabecalho-mobile__titulo'>Green</h1>
                         <a className='instaicon' href='https://www.instagram.com/barbearia_green2022/?next=%2F'><FaInstagram size={40}/></a>
                     </div>
-                    <div className='cabecalho-mobile__sidebar'>
-                        <FaWindowClose size={30} />
+                    <div className={style}>
+                        <FaWindowClose size={30} onClick={styleAlter}/>
                         <h1 className='cabecalho-mobile__sidebar-titulo'>Categorias</h1>
                         <a href='#home' className='cabecalho-mobile__sidebar-categoria'>Home</a>
                         <a href='#preco' className='cabecalho-mobile__sidebar-categoria'>Preço</a>

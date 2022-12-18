@@ -67,11 +67,25 @@
         color: var(--branco);
     }
 
-    .cabecalho-mobile__sidebar {
+    .cabecalho-mobile__sidebar-show {
         background-color: var(--branco);
         position: absolute;
         width: 200px;
         left: 0px;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        padding: 1em;
+    }
+
+    .cabecalho-mobile__sidebar-hide {
+        background-color: var(--branco);
+        position: absolute;
+        width: 200px;
+        left: -250px;
         top: 0;
         display: flex;
         flex-direction: column;
