@@ -44,6 +44,7 @@
         margin: 4em 2em;
         padding: 1em;
         border-radius: 10px;
+        gap: 1em;
     }
 
     .localizacao-desktop__titulo {
