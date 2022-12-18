@@ -79,6 +79,7 @@
         align-items: center;
         gap: 1em;
         padding: 1em;
+        border-radius: 5px;
     }
 
     .cabecalho-mobile__sidebar-hide {
@@ -100,6 +101,11 @@
         color: var(--preto);
         font-size: 1.3em;
         font-weight: 600;
+        margin-bottom: .5em;
+    }
+
+    .cabecalho-mobile__sidebar-categoria:hover {
+        color: var(--azul);
     }
 
 }
