@@ -39,3 +39,11 @@ html {
     --azul-botao: #4e47da;
     --azul: rgb(30, 56, 172);
 }
+
+@media screen and (min-width: 1800px) {
+
+    a {
+        font-size: 1.2em;
+    }
+
+}
