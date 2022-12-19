@@ -1,0 +1,17 @@
+.pagina-nao-encontrado {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+    color: var(--branco);
+}
+
+.pagina-nao-encontrada__erro {
+    color: var(--vermelho);
+}
+
+.pagina-nao-encontrado__titulo {
+    font-size: 3em;
+}

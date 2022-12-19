@@ -38,6 +38,7 @@ html {
     --preto-fundo: #202020;
     --azul-botao: #4e47da;
     --azul: rgb(30, 56, 172);
+    --vermelho: #ff0000;
 }
 
 @media screen and (min-width: 1800px) {

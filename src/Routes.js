@@ -4,6 +4,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import PagamentoCabeloBarba from './Paginas/PagamentoCabeloBarba/PagamentoCabeloBarba';
 import PagamentoCabelo from './Paginas/PagamentoCabelo/PagamentoCabelo';
 import PagamentoBarba from './Paginas/PagamentoBarba/PagamentoBarba';
+import PaginaNaoEncontrada from './Paginas/PaginaNaoEncontrada';
 
 function AppRoutes() {
   return (
@@ -13,7 +14,7 @@ function AppRoutes() {
           <Route path='/PagamentoCabeloBarba' element={<PagamentoCabeloBarba/>}/>
           <Route path='/PagamentoCabelo' element={<PagamentoCabelo/>}/>
           <Route path='/PagamentoBarba' element={<PagamentoBarba/>}/>
-          <Route path='*' element={<h1>Página não encontrada</h1>}></Route>
+          <Route path='*' element={<PaginaNaoEncontrada/>}></Route>
         </Routes>
       </BrowserRouter>
   );
