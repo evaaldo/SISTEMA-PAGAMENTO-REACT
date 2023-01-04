@@ -11,4 +11,9 @@
 
 <h1>Imagens do projeto</h1>
 
-<p>Imagens em breve..</p>
+![home-barbearia](https://user-images.githubusercontent.com/110418142/210579385-3e719351-bf38-4b77-ac02-2ba8a815c273.png)
+![precos-barbearia](https://user-images.githubusercontent.com/110418142/210579449-a1169b8d-2134-42f9-9f72-a23e59c60afd.png)
+![planos-barbearia](https://user-images.githubusercontent.com/110418142/210579473-1a2008f7-55ad-42e8-80c8-93db49f7765d.png)
+![localizacao-barbearia](https://user-images.githubusercontent.com/110418142/210579510-8f1fd015-4397-45ba-b10c-17e9376d7122.png)
+![contato-barbearia](https://user-images.githubusercontent.com/110418142/210579542-722475b0-ee19-4184-b74d-e06337ea0131.png)
+
