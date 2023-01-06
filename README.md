@@ -1,4 +1,4 @@
-<h1>Aniversário brastemp</h1>
+<h1>Barbearia green</h1>
 <h3>Finished - Finalizado</h3>
 
 <p><strong>✦ Resumo:</strong> Esse projeto é a criação do site de uma barbearia feito inteiramente em react.js, utilizando react-router-dom e duas APIs, uma de envio de e-mails e outra de efetuar pagamentos por via do paypal ou cartão de crédito e débito</p>
